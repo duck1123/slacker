@@ -1,7 +1,7 @@
 (defproject slacker "0.7.0-SNAPSHOT"
   :description "Transparent, non-invasive RPC by clojure and for clojure"
   :dependencies [[org.clojure/clojure "1.2.1"]
-                 [aleph "0.2.0"]
+                 [aleph "0.2.1-alpha1"]
                  [info.sunng/carbonite "0.2.2"]
                  [clj-json "0.5.0"]
                  [commons-pool/commons-pool "1.5.6"]
