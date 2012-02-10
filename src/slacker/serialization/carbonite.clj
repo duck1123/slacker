@@ -4,7 +4,8 @@
            [com.esotericsoftware.kryo.serialize StringSerializer
             MapSerializer IntSerializer
             LongSerializer BigDecimalSerializer BigIntegerSerializer
-            DateSerializer]))
+            DateSerializer]
+           java.nio.ByteBuffer))
 
 (def stacktrace-element-serializer
   (proxy [Serializer] []
