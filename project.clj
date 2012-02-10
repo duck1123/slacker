@@ -7,6 +7,7 @@
                  [commons-pool/commons-pool "1.5.6"]
                  [slingshot "0.10.1"]
                  [zookeeper-clj "0.9.2"]
+                 [org.clojure/java.jmx "0.1"]
                  [org.clojure/tools.logging "0.2.3"]]
   :dev-dependencies [[codox "0.4.0"]
                      [lein-exec "0.1"]]
