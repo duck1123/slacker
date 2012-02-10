@@ -13,7 +13,7 @@
         (repeat (cluster-map :name))
         (keys funcs))))
 
-(deftest test-publish-cluster
+#_(deftest test-publish-cluster
   (let [cluster-map {:name "test-cluster" :zk "127.0.0.1:2181"}
         node-list (create-data cluster-map)
         test-conn (zk/connect "127.0.0.1:2181")

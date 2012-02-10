@@ -5,7 +5,7 @@
   (:use [slacker.utils :only [zk-path]])
   (:require [zookeeper :as zk]))
 
-(deftest test-clustered-client
+#_(deftest test-clustered-client
   (let [cluster-name "test-cluster"
         test-server "127.0.0.1:2104"
         test-server2 "127.0.0.1:2105"
