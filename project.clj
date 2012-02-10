@@ -1,4 +1,4 @@
-(defproject slacker "0.7.0-SNAPSHOT"
+(defproject net.kronkltd/slacker "0.7.0-SNAPSHOT"
   :description "Transparent, non-invasive RPC by clojure and for clojure"
   :dependencies [[org.clojure/clojure "1.3.0"]
                  [aleph "0.2.1-alpha1"]
